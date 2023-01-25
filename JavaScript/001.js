@@ -17,17 +17,17 @@ function carregar() {
     //ADD 0 A ESQUERDA SEMPRE Q 
     if (h >= 0 && h < 12){
         //bom dia!
-        img.src = '/imagens/dia.png'
+        img.src = 'imagens/dia.png'
         //muda cor de fundo de acordo com horario
         document.body.style.backgroundColor = '#5c8ad8'
     } else if (h > 12 && h <18 ) {
         //boa tarde!
-        img.src = '/imagens/tarde.png'
+        img.src = 'imagens/tarde.png'
         //muda cor de fundo de acordo com horario
         document.body.style.backgroundColor = '#F0580F'
     } else{
         //boa noite!
-        img.src = '/imagens/noite.png'
+        img.src = 'imagens/noite.png'
         //muda cor de fundo de acordo com horario
         document.body.style.backgroundColor = '#383f4d'
     }
